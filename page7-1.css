@@ -188,11 +188,12 @@ ul, li {
 .con {
     background-color: #EEE;
     width: 1000px;
-    height: 320px;
+    height: 350px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
     font-weight: bold;
+    padding-top: 20px;
 }
 .con-left {
     width: 35%;
