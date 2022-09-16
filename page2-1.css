@@ -159,7 +159,7 @@ ul, li {
     background-color: #002366;
     color: white;
 }
-.frame-menu li:nth-child(2) .frame-menu-item{
+.frame-menu li:first-child .frame-menu-item{
     background-color: #002366;
     color: white;
 }
@@ -174,21 +174,89 @@ ul, li {
     width: 1200px;
     height: 100%;
     margin: 0px auto;
-    padding-top: 30px;
 }
 .content-title {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 30px;
     text-align: center;
     color: #002366;
     font-weight: bold;
 }
 
-#map {
-<<<<<<< HEAD
-=======
-    margin-left: 100px;
->>>>>>> d730169a786a3f402373ea9580372ef43b6bf2af
-    margin-bottom: 60px;
+.con {
+    padding-top: 68px;
+    border-top: 1px solid #DDD;
+    margin-bottom: 50px;
+}
+.con1-left {
+    float: left;
+    width: 45%;
+}
+.con1-left img {
+    border: 5px solid #EEE;
+}
+.con1-right {
+    float: left;
+    width: 55%;
+}
+.con1-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+.con1-title::before {
+    content: '';
+    background: #002366;
+    width: 5px;
+    height: 35px;
+    display: inline-block;
+    margin: -10px 15px auto auto;
+    vertical-align: middle;
+}
+.con1-ex {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.con2 {
+    width: 1200px;
+    clear: both;
+}
+.con2::after {
+    content:'';
+    display:block;
+    clear:both;
+}
+.con2-ex {
+    padding-top: 30px;
+    clear: both;
+}
+.con2 dt {
+    font-size: 24px;
+    position: absolute;
+    margin-top: 5px;
+}
+.con2 dd {
+    font-size: 18px;
+    padding-left: 200px;
+}
+.con2 dd ul {
+    float: left;
+    width: 500px;
+}
+.con2 dd li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+.con2 dd li::before{
+    content: '';
+    background: #002366;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: -5px 10px auto auto;
+    vertical-align: middle;
 }
