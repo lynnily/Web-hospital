@@ -187,7 +187,7 @@ ul, li {
 .con {
     padding-top: 68px;
     border-top: 1px solid #DDD;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .con1-left {
     float: left;
@@ -226,7 +226,7 @@ ul, li {
     padding-top: 80px;
 }
 .con2 dt {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
 }
 .con2 dt::before {
@@ -236,7 +236,7 @@ ul, li {
     height: 18px;
     display: inline-block;
     background-repeat: no-repeat;
-    margin-right: 12px;
+    margin-right: 14px;
 }
 .con2 dd {
     margin-top: 28px;
@@ -251,6 +251,6 @@ ul, li {
     height: 5px;
     display: inline-block;
     border-radius: 100%;
-    margin: -5px 11px auto auto;
+    margin: -5px 13px auto auto;
     vertical-align: middle;
 }
