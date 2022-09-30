@@ -1,0 +1,257 @@
+* {margin: 0; padding: 0;}
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 1200px;
+    }
+}
+
+body {
+    font-family: 'notokr','Montserrat';
+    line-height: 100% !important;
+    letter-spacing: -2px;
+}
+a {
+    text-decoration: none;
+    color: #222 !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+p {
+    margin-bottom: 0 !important;
+}
+
+#header {
+    height: 100px;
+    border-top: 4px solid #002366;
+}
+.main-header {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.header-span {
+    flex: 1;
+    margin: auto 0;
+    text-align: center;
+}
+.header-span .phone {
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#nav {
+    height: 51px;
+    border-top: 1px solid #DDD;
+    position: relative;
+    z-index: 1;
+}
+ul, li {
+    list-style: none;
+}
+.main-nav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.outer-menu {
+    width: 100%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+    font-weight: bold;
+    font-size: 16px;
+}
+.outer-menu-item {
+    display: table-cell;
+    line-height: 50px;
+    text-align: center;
+}
+.outer-menu-item:hover .menu-title {
+    color: #002366 !important;
+}
+.outer-menu-item:hover .inner-menu{
+    display: block;
+}
+.inner-menu {
+    display: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+.inner-menu-item{
+    border-top: 1px solid #DDD;
+    background-color: #FFF;
+    color: #222;
+}
+.inner-menu-item:hover {
+    background-color: #EEE;
+}
+.inner-menu-item:hover {
+    color: #002366 !important;
+}
+
+#footer {
+    border-top: 1px solid #EEE;
+    height: 100px;
+}
+.main-footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #555;
+    padding-top: 1rem;
+}
+
+/* frame */
+.frame {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.frame img {
+    max-width: 100%;
+    margin-top: -22%;
+    opacity: 0.8;
+}
+.frame-text {
+    font-size: 36px;
+    color: white;
+	text-align: center;
+    position: absolute;
+    top: 36%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+}
+.frame-menu {
+    width: 1200px;
+    height: 80px;
+    position: absolute;
+    top: 75%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+}
+.frame-menu ul{
+    list-style: none;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.frame-menu li {
+    display: table-cell;
+}
+.frame-menu-item {
+    background-color: white;
+    height: 100%;
+    font-size: 18px;
+    padding-top: 32px;
+}
+.frame-menu li:not(:last-of-type) .frame-menu-item {
+    margin-right: 3px;
+}
+.frame-menu-item:hover {
+    background-color: #002366;
+    color: white;
+}
+.frame-menu li:nth-child(2) .frame-menu-item{
+    background-color: #002366;
+    color: white;
+}
+
+/* frame content */
+.frame-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.frame-content-item {
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+.content-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: #002366;
+    font-weight: bold;
+}
+
+.con {
+    padding-top: 68px;
+    border-top: 1px solid #DDD;
+    margin-bottom: 100px;
+}
+.con1-left {
+    float: left;
+    width: 45%;
+}
+.con1-left img {
+    border: 5px solid #EEE;
+}
+.con1-right {
+    float: left;
+    width: 55%;
+}
+.con1-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+.con1-title::before {
+    content: '';
+    background: #002366;
+    width: 5px;
+    height: 32px;
+    display: inline-block;
+    margin: -10px 15px auto auto;
+    vertical-align: middle;
+}
+.con1-ex {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.con2 {
+    width: 1200px;
+    clear: both;
+    padding-top: 80px;
+}
+.con2 dt {
+    font-size: 28px;
+    font-weight: bold;
+}
+.con2 dt::before {
+    content: '';
+    background-image: url(asterisk.png);
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 14px;
+}
+.con2 dd {
+    margin-top: 28px;
+    margin-left: 14px;
+    line-height: 36px;
+    font-size: 17px;
+    word-spacing: 6px;
+}
+.con2 dd li::before{
+    content: '';
+    background: #777;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: -5px 13px auto auto;
+    vertical-align: middle;
+}
