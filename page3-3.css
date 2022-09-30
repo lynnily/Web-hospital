@@ -159,7 +159,7 @@ ul, li {
     background-color: #002366;
     color: white;
 }
-.frame-menu li:last-child .frame-menu-item{
+.frame-menu li:nth-child(3) .frame-menu-item{
     background-color: #002366;
     color: white;
 }
@@ -243,6 +243,10 @@ ul, li {
     margin-left: 14px;
     line-height: 36px;
     font-size: 17px;
+    margin-bottom: 80px;
+}
+#word-spacing {
+    word-spacing: 6px;
 }
 .con2 dd li::before{
     content: '';
