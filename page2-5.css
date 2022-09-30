@@ -201,7 +201,7 @@ ul, li {
     width: 55%;
 }
 .con1-title {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 36px;
@@ -210,7 +210,7 @@ ul, li {
     content: '';
     background: #002366;
     width: 5px;
-    height: 35px;
+    height: 32px;
     display: inline-block;
     margin: -10px 15px auto auto;
     vertical-align: middle;
