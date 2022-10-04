@@ -258,3 +258,28 @@ ul, li {
     margin: -5px 13px auto auto;
     vertical-align: middle;
 }
+.con2 table {
+    margin-top: 40px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.con2 th, td {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.point {
+    background-color: #e0ebff;
+}
+#note {
+    width: 1000px;
+    height: 120px;
+    margin-left: 14px;
+    margin-top: 100px;
+    border: 1px solid #CCC;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+    color: #555;
+}
