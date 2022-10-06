@@ -185,3 +185,34 @@ ul, li {
     font-weight: bold;
 }
 
+.list {
+    border-top: 1px solid #DDD;
+    font-size: 17px;
+    padding-top: 20px;
+    word-spacing: 2px;
+}
+.list p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list table {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.list th {
+    background-color: #EEE;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.list td {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.list th, td {
+    border: 1px solid #000;
+    line-height: 1.5;
+    width: 240px;
+    text-align: center;
+}
